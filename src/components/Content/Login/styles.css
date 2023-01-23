@@ -1,0 +1,22 @@
+.blockForm {
+  display: flex;
+  flex-wrap: nowrap;
+
+  justify-content: center;
+}
+
+.login {
+  padding: 20px 0px;
+  align-items: center;
+}
+
+input {
+  max-width: 300px;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #50c878;
+  color: whitesmoke;
+}
