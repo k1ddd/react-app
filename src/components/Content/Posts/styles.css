@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+li:nth-child(odd) {
+  background-color: #50c878;
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+li:nth-child(even) {
+  background-color: black;
+  color: whitesmoke;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
